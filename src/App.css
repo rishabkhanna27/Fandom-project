@@ -1,38 +1,75 @@
-.App {
+body{
+  background-color:lightgrey;
+}
+.logo
+{
+  width: 150px;
+  padding: 1%;
+}
+.type
+{
   text-align: center;
+  margin:5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+  border:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name
+{
+  text-align: center;
+  background-color: lightgrey;
+  height:150px;
+  font-size: 130%;
+  font-weight: bold;
+  padding:50px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.residents
+{
+  text-align: center;
+  margin: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.Header
+{
+  background-color: rgb(189, 218, 215);
 }
+.search{
+  display:inline-flex;
+  float: right;
+  padding: 1%;
+}
+.content{
+  margin-left: 9%;
+  padding-top:2%;
+  padding-bottom:5%;
+  padding-left:4%;
+  padding-right:4%;
+  font-family: "Times New Roman";
+  background-color:white
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.searchButton{
+
+  border-top-right-radius: 15%;
+  background-color:lightgray;
+  border-width: 0px;
+  border-bottom-right-radius: 15%;
+}
+.Character{
+  background-color: lightgray;
+  padding:3%;
+  height:30px;
+  width:80px;
+  font-size:15px;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+.sideBar
+{
+  background-color : rgb(189, 218, 215);
+  display:table;
+  padding-right:2%;
+  height:100%;
+  position:absolute;
+  padding-top:2%;
+  font-size:20px;
 }
